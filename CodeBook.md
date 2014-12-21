@@ -16,16 +16,16 @@ To accomplish the course project here is teh flow of the code and saved under ru
 ###Following variables have been used in run_analysis.R
 
 * XtrainData - Stored the data set from the text file Data/UCI HAR Dataset/train/X_train.txt
-YtrainData - Stored the data set from the text file Data/UCI HAR Dataset/train/y_train.txt
-SubtrainData - Stored the data set from the text file Data/UCI HAR Dataset/train/subject_train.txt
-XtestData - Stored the data set from the text file "Data/UCI HAR Dataset/test/X_test.txt"
-YtestData - Stored the data set from the text file  "Data/UCI HAR Dataset/test/y_test.txt"
-SubtestData - Stored the data set from the text file "Data/UCI HAR Dataset/test/subject_test.txt"
-XmergeData - Stored merge data sets with training & test data
-YmergeData - Stored merge data sets with training & test data 
-SubmergeData - Stored merge data sets with training & test data for subjects 
-featuresData - USed to store the data set from the text file "Data/UCI HAR Dataset/features.txt"
-meanAndStdFeatures - Stored the columns only with the mean() or std() in their names 
-activitiesData - Stored the data set from the text file "Data/UCI HAR Dataset/activity_labels.txt"
-combinedAllData - Stored the combined result with mean-std values (X), activities (Y) and subjects into one data frame.  
-averagesData - Stored the new tidy data set with combinedAllData
+* YtrainData - Stored the data set from the text file Data/UCI HAR Dataset/train/y_train.txt
+* SubtrainData - Stored the data set from the text file Data/UCI HAR Dataset/train/subject_train.txt
+* XtestData - Stored the data set from the text file "Data/UCI HAR Dataset/test/X_test.txt"
+* YtestData - Stored the data set from the text file  "Data/UCI HAR Dataset/test/y_test.txt"
+* SubtestData - Stored the data set from the text file "Data/UCI HAR Dataset/test/subject_test.txt"
+* XmergeData - Stored merge data sets with training & test data
+* YmergeData - Stored merge data sets with training & test data 
+* SubmergeData - Stored merge data sets with training & test data for subjects 
+* featuresData - USed to store the data set from the text file "Data/UCI HAR Dataset/features.txt"
+* meanAndStdFeatures - Stored the columns only with the mean() or std() in their names 
+* activitiesData - Stored the data set from the text file "Data/UCI HAR Dataset/activity_labels.txt"
+* combinedAllData - Stored the combined result with mean-std values (X), activities (Y) and subjects into one data frame.  
+* averagesData - Stored the new tidy data set with combinedAllData
