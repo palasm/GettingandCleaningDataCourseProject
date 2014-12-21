@@ -2,9 +2,9 @@
 
 ### Introduction
 
-To accomplish the course project here is teh flow of the code and saved under run_analysis.R. The script is parititioned into logical steps as mentioned in step 1 to 5 of the course project. This script also needs the library "plyr" installed.
+To accomplish the course project here is teh flow of the code and saved under run_analysis.R. The script is segmented into logical groups as mentioned in step 1 to 5 of the course project. This script also needs the library "plyr" installed.
 
-1. Downloads the data from the prescribed URL of UCI Machine Learning Repository 
+1. Downloads the data from the prescribed URL of UCI Machine Learning Repository (optioanl)
 2. Read the data from the training & test folders 
 3. Merge the training and test sets to create one meged data set with rbind() 
 4. Enhance the data readabilty by replacing the activity  values in the dataset with descriptive activity names
