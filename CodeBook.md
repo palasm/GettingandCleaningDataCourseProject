@@ -13,9 +13,9 @@ To accomplish the course project here is teh flow of the code and saved under ru
 7. creates a second, independent tidy dataset with an average of each variable for each each activity and each subject. In other words, same type of measurements for a particular subject and activity are averaged into one value and the tidy data set contains these mean values only. The processed tidy data set is also exported as text file called averages_data.txt, and uploaded to this repository.
 
 
-###Following variables have been user in run_analysis.R
+###Following variables have been used in run_analysis.R
 
-XtrainData - Stored the data set from the text file Data/UCI HAR Dataset/train/X_train.txt
+## XtrainData - Stored the data set from the text file Data/UCI HAR Dataset/train/X_train.txt
 YtrainData - Stored the data set from the text file Data/UCI HAR Dataset/train/y_train.txt
 SubtrainData - Stored the data set from the text file Data/UCI HAR Dataset/train/subject_train.txt
 XtestData - Stored the data set from the text file "Data/UCI HAR Dataset/test/X_test.txt"
