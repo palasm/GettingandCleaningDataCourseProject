@@ -14,8 +14,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 The code takes for granted all the data is present in the same folder, un-compressed and without names altered.
 
 ### CodeBook.md 
-CodeBook.md describes the variables, the data, and any transformations or work that was performed to clean up the data.
+CodeBook.md captured the flow of the code with step by step how code works alongwith the all the variables used for read , summarize and cleanup the data. 
 
 ### run_analysis.R
-run_analysis.R contains all the code to perform the analyses described in the 5 steps. They can be launched in RStudio by just importing the file. 
-The output of the 5th step is called new_tidy_average_data.txt, and uploaded in the course project's form.
+run_analysis.R contains the entire code base to perform the analyses described in the 5 steps in course project. This R program file can be launced in RStudio by just importing the file. Finally, the output of the 5th step is stored in a text file called new_tidy_average_data.txt. 
