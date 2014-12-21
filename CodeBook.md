@@ -1,6 +1,6 @@
-A code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md.
+### A code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md.
 
-Introduction
+### Introduction
 
 To accomplish the course project here is teh flow of the code and saved under run_analysis.R. The script is parititioned into logical steps as mentioned in step 1 to 5 of the course project. This script also needs the library "plyr" installed.
 
@@ -13,10 +13,8 @@ To accomplish the course project here is teh flow of the code and saved under ru
 7. creates a second, independent tidy dataset with an average of each variable for each each activity and each subject. In other words, same type of measurements for a particular subject and activity are averaged into one value and the tidy data set contains these mean values only. The processed tidy data set is also exported as text file called averages_data.txt, and uploaded to this repository.
 
 
-Following variables have been user in run_analysis.R
+###Following variables have been user in run_analysis.R
 
-fileUrl - Stored the URL name of the source file 
-zipfileSource - Stored the name of the directory of zip file 
 XtrainData - Stored the data set from the text file Data/UCI HAR Dataset/train/X_train.txt
 YtrainData - Stored the data set from the text file Data/UCI HAR Dataset/train/y_train.txt
 SubtrainData - Stored the data set from the text file Data/UCI HAR Dataset/train/subject_train.txt
@@ -31,4 +29,3 @@ meanAndStdFeatures - Stored the columns only with the mean() or std() in their n
 activitiesData - Stored the data set from the text file "Data/UCI HAR Dataset/activity_labels.txt"
 combinedAllData - Stored the combined result with mean-std values (X), activities (Y) and subjects into one data frame.  
 averagesData - Stored the new tidy data set with combinedAllData
-
