@@ -79,5 +79,5 @@ averagesData <- ddply(combinedAllData, .(subject, activity), function(x) colMean
 
 # Write Data in average_data.txt using write.table() 
 
-write.table(averagesData, "averages_data.txt", row.name=FALSE)
+write.table(averagesData, "new_tidy_average_data.txt", row.name=FALSE)
 
