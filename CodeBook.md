@@ -10,7 +10,7 @@ To accomplish the course project here is teh flow of the code and saved under ru
 4. Enhance the data readabilty by replacing the activity  values in the dataset with descriptive activity names
 5. Filter the measurements (features) on the mean and standard deviation for each measurement
 6. Use only those columns with the mean and standard deviation measures are taken from the whole dataset. After extracting these columns, they are given the correct names, taken from features.txt. 
-7. creates a second, independent tidy dataset with an average of each variable for each each activity and each subject. In other words, same type of measurements for a particular subject and activity are averaged into one value and the tidy data set contains these mean values only. The processed tidy data set is also exported as text file called averages_data.txt, and uploaded to this repository.
+7. creates a second, independent tidy dataset with an average of each variable for each each activity and each subject. In other words, same type of measurements for a particular subject and activity are averaged into one value and the tidy data set contains these mean values only. The processed tidy data set is also exported as text file called new_tidy_average_data.txt. 
 
 
 ###Following variables have been used in run_analysis.R
