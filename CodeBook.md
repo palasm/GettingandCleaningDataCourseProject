@@ -15,7 +15,7 @@ To accomplish the course project here is teh flow of the code and saved under ru
 
 ###Following variables have been used in run_analysis.R
 
-## XtrainData - Stored the data set from the text file Data/UCI HAR Dataset/train/X_train.txt
+# XtrainData - Stored the data set from the text file Data/UCI HAR Dataset/train/X_train.txt
 YtrainData - Stored the data set from the text file Data/UCI HAR Dataset/train/y_train.txt
 SubtrainData - Stored the data set from the text file Data/UCI HAR Dataset/train/subject_train.txt
 XtestData - Stored the data set from the text file "Data/UCI HAR Dataset/test/X_test.txt"
