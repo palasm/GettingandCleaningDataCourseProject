@@ -61,5 +61,5 @@ combinedAllData <- cbind(XmergeData, YmergeData, SubmergeData)
 # Step 5 - Create a second, independent tidy data set with the average of each variable for each activity and each subject
 # Creating independent tidy data set with existing
 averagesData <- ddply(combinedAllData, .(subject, activity), function(x) colMeans(x[, 1:66]))
-# Write Data in average_data.txt using write.table()
+# Write Data in new_tidy_average_data.txt using write.table()
 write.table(averagesData, "new_tidy_average_data.txt", row.name=FALSE)
